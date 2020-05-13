@@ -1,0 +1,19 @@
+{
+  "rules": {
+    ".read": "auth.uid != null",
+    ".write": "false",
+      "messages": {  
+       
+        ".write":"auth.token.email.matches(/.*@ada.ac.uk$/)",
+        "uid":{
+          ".validate":"newData.val() === auth.uid"
+         }
+       },
+
+  
+    "$users": {  
+        ".write": "auth.token.email.matches(/.*@ada.ac.uk$/)",
+  }
+  }
+  
+}
