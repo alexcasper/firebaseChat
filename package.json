@@ -5,11 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "nodemon --experimental-modules index.js"
   },
   "author": "",
   "license": "ISC",
-  "type": "module",
   "dependencies": {
     "express": "^4.17.1",
     "nodemon": "^2.0.3"

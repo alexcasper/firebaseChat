@@ -1,4 +1,5 @@
-          import express from 'express';
+// This is just a fancy minimalist express server.
+          const express = require('express');
               const app = express()
                 const port = 3000
                  console.log(app)
